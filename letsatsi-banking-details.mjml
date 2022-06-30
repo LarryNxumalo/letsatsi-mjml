@@ -1,0 +1,59 @@
+<mjml>
+ <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Poppins, sans-serif" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#F1F2F2">
+  
+    <mj-section>
+      <mj-column>
+        <mj-image width="162px" src="{% static 'images/email/assets/img/logo.png' %}"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0">
+		<mj-column >
+			<mj-image padding="0" src="{% static 'images/email/assets/img/header_letsatsi_finance.png' %}"></mj-image>
+		</mj-column>
+    </mj-section>
+
+    <mj-section  background-color="#ffffff">
+      <mj-column>
+         <mj-text  align="left" line-height="18px" font-size="11px" color="#6E7191">Please make use of the below banking details and reference when making a payment.</mj-text>
+         <mj-text  align="left" line-height="18px" font-size="11px" color="#6E7191">Banking Details</mj-text>
+         <mj-text  align="left" line-height="18px" font-size="11px" color="#6E7191">Bank Name: {{ bank_name}}</mj-text>
+         <mj-text  align="left" line-height="18px" font-size="11px" color="#6E7191">Account Name: {{ account_name }}</mj-text>
+         <mj-text  align="left" line-height="18px" font-size="11px" color="#6E7191">Account Number: {{ account_number }}</mj-text>
+         <mj-text  align="left" line-height="18px" font-size="11px" color="#6E7191">Branch Code: {{ branch_code }}</mj-text>
+         <mj-text  align="left" line-height="18px" font-size="11px" color="#6E7191">Your Reference Number: {{ payment_reference }}</mj-text>
+      </mj-column>
+    </mj-section>
+
+	<mj-section background-color="#ffffff">
+		<mj-column>	
+			  <mj-text font-weight="normal" line-height="18px" align="left" font-size="10px" color="#6E7191" >Kind Regards,<br><strong>Letsatsi Finance</strong></mj-text>
+			  <mj-spacer height="30px" />
+			  <mj-image align="left" src="{% static 'images/email/assets/img/divider.png' %}"></mj-image>
+		</mj-column>
+	</mj-section>
+
+	<mj-section background-color="#ffffff" padding="20px 0 0 0">
+		<mj-include path="./footercell.mjml"/>
+	</mj-section>
+
+	<mj-section background-color="#ffffff" padding="20px 0 0 0">
+		<mj-include path="./footer.mjml"/>
+	</mj-section>
+
+	<mj-section background-color="#ffffff" border-radius="0 0 27px 27px">
+		<mj-include path="./spacer.mjml"/>
+	</mj-section>
+
+	<mj-section background-color="#F1F2F2" padding="0 0 20px 0">
+		<mj-column border-radius="6px"  padding="0">
+			<mj-text font-weight="normal" line-height="18px" align="center" font-size="10px" color="#6E7191">Letsatsi Finance and Loan (Pty) Ltd is an Authorised Financial Services and Credit Provider NCRCP895</mj-text>
+		</mj-column>
+	</mj-section>
+  </mj-body>
+</mjml>

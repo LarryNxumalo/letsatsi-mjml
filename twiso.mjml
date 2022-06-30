@@ -1,0 +1,45 @@
+<mjml>
+ <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Poppins" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#F5F6F8">
+    <mj-section>
+      <mj-column>
+        <mj-image src="{% static 'images/email/assets/img/logo.png' %}"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+		<mj-column>
+			<mj-image padding="0" src="./a"/>
+		</mj-column>
+    </mj-section>
+	<mj-section background-color="#fff">
+      <mj-column>
+        <mj-text font-weight="normal" align="left" line-height="10px" font-size="24px" color="#000" >Your video async accessible!</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#fff" padding="0">
+      <mj-column>
+		<mj-image width="150px" align="left" src="./assets/img/blog-1.png"></mj-image>
+      </mj-column>
+	   <mj-column background-color="#fff" border-radius="6px"  padding="0">
+		<mj-text font-weight="normal" align="left" line-height="0" font-size="12px" color="#756DA9">Video name</mj-text>
+		<mj-text font-weight="normal" align="left" line-height="0" font-size="12px" color="#9F9F9F">1h 20 min</mj-text>
+		<mj-button href="https://videolink.com" align="left" border-radius="6px" background-color="#000">Watch the video</mj-button>
+      </mj-column>
+    </mj-section>
+
+	<mj-section background-color="#fff">
+      
+       <mj-column width="100%" background-color="#fff" border-radius="6px" padding="0">
+			<mj-text font-weight="normal" line-height="18px" align="left" font-size="10px" color="#6E7191">Quations or faq? Contact us at faq@twiso.co. if you'd rather not receive this kind of<br>email, Don't want any more emails from Notable? <a style="">Unsubscribe</a></mj-text>
+			<mj-text font-weight="normal" line-height="18px" align="left" font-size="10px" color="#6E7191">100 Smith Street, Melbourne VIC 3000<br>&copy; 2022 Twiso</mj-text>
+      </mj-column>
+    </mj-section>
+
+	
+  </mj-body>
+</mjml>

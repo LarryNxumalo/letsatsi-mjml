@@ -1,0 +1,194 @@
+<mjml>
+ <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Poppins, sans-serif" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#F1F2F2">
+  
+    <mj-section>
+      <mj-column>
+        <mj-image width="162px" src="{% static 'images/email/assets/img/logo.png' %}"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0">
+		<mj-column >
+			<mj-image padding="0" src="{% static 'images/email/assets/img/making_more_possible_text.png' %}"></mj-image>
+		</mj-column>
+    </mj-section>
+
+    <mj-section  background-color="#fff" >
+      <mj-column>
+         <mj-text font-weight="normal" align="center" line-height="10px" font-size="12px" color="#FF9E16" >JOIN THE COMMUNITY</mj-text>
+         <mj-text font-weight="normal" align="center" line-height="18px" font-size="16px" color="#0D1F79" >Quick and easy solutions for you.</mj-text>
+         <mj-text  align="center" line-height="18px" font-size="11px" color="#6E7191" >Business proposition dolor sit amet, consectetur adipiscing elit. Tempor nibh massa euismod aliquet dignissim. Fusce maecenas ut vel arcu a at. Non ac tristique id malesuada. </mj-text>
+         <mj-button href="#" border-radius="6px" background-color="#0D1F79">Find out more</mj-button>
+      </mj-column>
+    </mj-section>
+
+	<mj-section  background-color="#f9f9f9" >
+      <mj-column>
+         <mj-text font-weight="normal" align="center" line-height="10px" font-size="12px" color="#FF9E16" >WE'VE GOT YOU COVERED</mj-text>
+         <mj-text font-weight="normal" align="center" line-height="18px" font-size="16px" color="#0D1F79" >Tailored solutions for you:</mj-text>
+      </mj-column>
+    </mj-section>
+
+	<mj-section background-color="#F9F9F9">
+		<mj-column width="45%" background-color="#fff" border-radius="6px">
+			<mj-image padding-top="25px" src="{% static 'images/email/assets/img/edu-benefits.png' %}"></mj-image>
+			<mj-text font-weight="normal" line-height="1px" align="left" font-size="11px" color="#FF9E16" >From R xxx p/mth</mj-text>
+			<mj-text font-weight="normal" line-height="12px" align="left" padding-bottom="25px" font-size="11px" color="#6E7191" >Consectetur adipiscing elit ut aliquam Lorem ipsum dolor sit amet Purus sit amet luctus venenatis</mj-text>
+		</mj-column>
+		<mj-column padding="0" width="5%" background-color="#F9F9F9">
+			<mj-divider width="5%" border-color="#F9F9F9"/>
+		</mj-column>
+		<mj-column width="45%" background-color="#fff" border-radius="6px">
+			<mj-image padding-top="25px" src="{% static 'images/email/assets/img/commuter-benefits.png' %}"></mj-image>
+			<mj-text font-weight="normal" line-height="1px" align="left" font-size="11px" color="#FF9E16" >From R xxx p/mth</mj-text>
+			<mj-text font-weight="normal" line-height="12px" align="left" padding-bottom="25px" font-size="11px" color="#6E7191" >Consectetur adipiscing elit ut aliquam Lorem ipsum dolor sit amet Purus sit amet luctus venenatis</mj-text>
+		</mj-column>
+	</mj-section>
+	<mj-section background-color="#F9F9F9">
+		<mj-column width="45%" background-color="#fff" border-radius="6px">
+			<mj-image padding-top="25px" src="{% static 'images/email/assets/img/edu-benefits.png' %}"></mj-image>
+			<mj-text font-weight="normal" line-height="1px" align="left" font-size="11px" color="#FF9E16" >From R xxx p/mth</mj-text>
+			<mj-text font-weight="normal" line-height="12px" align="left" padding-bottom="25px" font-size="11px" color="#6E7191" >Consectetur adipiscing elit ut aliquam Lorem ipsum dolor sit amet Purus sit amet luctus venenatis</mj-text>
+		</mj-column>
+		<mj-column padding="0" width="5%" background-color="#F9F9F9">
+			<mj-divider width="5%" border-color="#F9F9F9"/>
+		</mj-column>
+		<mj-column width="45%" background-color="#fff" border-radius="6px">
+			<mj-image padding-top="25px" src="{% static 'images/email/assets/img/commuter-benefits.png' %}"></mj-image>
+			<mj-text font-weight="normal" line-height="1px" align="left" font-size="11px" color="#FF9E16" >From R xxx p/mth</mj-text>
+			<mj-text font-weight="normal" line-height="12px" align="left" padding-bottom="25px" font-size="11px" color="#6E7191" >Consectetur adipiscing elit ut aliquam Lorem ipsum dolor sit amet Purus sit amet luctus venenatis</mj-text>
+		</mj-column>
+	</mj-section>
+
+	<mj-section background-color="#F9F9F9" >
+		<mj-column>
+			<mj-button href="#" border-radius="6px" align="center" line-height="18px" font-size="11px" font-weight="bold"  border="1px solid #0D1F79"  color="#0D1F79" background-color="transparent">I'm interested</mj-text>
+		</mj-column>
+    </mj-section>
+
+    <mj-section background-color="#fff">
+		<mj-column >
+			<mj-image padding="0" src="{% static 'images/email/assets/img/left-lady@2x.png' %}"></mj-image>
+		</mj-column>
+		<mj-column >
+			<mj-spacer height="50px" />
+			<mj-text font-weight="normal" line-height="10px" align="left" font-size="8px" color="#FF9E16" >EVERYTHING AT YOUR FINGERTIPS</mj-text>
+			<mj-text font-weight="normal" line-height="18px" align="left" font-size="16px" color="#0D1F79" >Enjoy a personalised portal</mj-text>
+			<mj-text font-weight="normal" line-height="18px" align="left" font-size="11px" color="#6E7191" >View and manage your lorem ipsum <br>
+			and get access to tailored products<br> and solutions for you.</mj-text>
+			<mj-image href="#" align="left" width="150px" src="{% static 'images/email/assets/img/create-account.png' %}"></mj-image>
+		</mj-column>
+    </mj-section>
+    <mj-section background-color="#f9f9f9">
+		<mj-column >
+			<mj-text font-weight="normal" line-height="1px" align="center" font-size="8px" color="#FF9E16" >TESTIMONIALS</mj-text>
+			<mj-text font-weight="normal" line-height="1px" align="center" font-size="16px" color="#0D1F79" >Join the conversation</mj-text>
+		</mj-column>
+    </mj-section>
+	<mj-section background-color="#f9f9f9" >
+		<mj-column>
+			<mj-image padding="0" width="450px" src="{% static 'images/email/assets/img/testimonial.png' %}"></mj-image>
+		</mj-column>
+    </mj-section>
+	  <mj-section 
+	  			border-radius="0" 
+                background-color="#F1F2F2" 
+                background-url="{% static 'images/email/assets/img/testimonial.png' %}" 
+                background-size="cover"
+                background-repeat="no-repeat">
+		<mj-column>
+			<mj-text font-weight="bold" line-height="1px" align="center" font-size="9px" color="#fff" >PATRICK MABUSE</mj-text>
+			<mj-text font-weight="normal" line-height="1px" align="center" font-size="9px" color="#fff" >Founder of lorem ipsum</mj-text>
+			<mj-spacer height="15px" />
+		</mj-column>
+    </mj-section>
+
+	<mj-section  background-color="#F9F9F9" >
+      <mj-column>
+         <mj-text font-weight="normal" align="center" line-height="1px" font-size="9px" color="#FF9E16" >WHAT'S NEWS?</mj-text>
+         <mj-text font-weight="normal" align="center" line-height="18px" font-size="16px" color="#0D1F79" >Heading introducing blog articles</mj-text>
+      </mj-column>
+    </mj-section>
+	
+	<mj-section background-color="#F9F9F9">
+		<mj-column width="31%" background-color="#fff" border-radius="6px">
+			<mj-image src="{% static 'images/email/assets/img/blog-1.png' %}"></mj-image>
+			<mj-text font-weight="normal" line-height="1px" align="left" font-size="10px" color="#003DA6" >Blog heading 1</mj-text>
+			<mj-text font-weight="normal" line-height="1px" align="left" font-size="6px" color="#718096" >May 20th 2020</mj-text>
+			<mj-text font-weight="normal" line-height="12px" align="left" font-size="9px" color="#718096" >Lorem ipsum dolor sit amet, consec tetur adipiscing elit ut aliquam, purus sit amet.</mj-text>
+			<mj-image width="70px" align="left" src="{% static 'images/email/assets/img/arrow.png' %}"></mj-image>
+		</mj-column>
+		<mj-column padding="0" width="1.5%" background-color="#F9F9F9">
+			<mj-divider width="1.5%" border-color="#F9F9F9"/>
+		</mj-column>
+		<mj-column width="31%" background-color="#fff" border-radius="6px">
+			<mj-image src="{% static 'images/email/assets/img/blog-2.png' %}"></mj-image>
+			<mj-text font-weight="normal" line-height="1px" align="left" font-size="10px" color="#003DA6" >Blog heading 1</mj-text>
+			<mj-text font-weight="normal" line-height="1px" align="left" font-size="6px" color="#718096" >May 20th 2020</mj-text>
+			<mj-text font-weight="normal" line-height="12px" align="left" font-size="9px" color="#718096" >Lorem ipsum dolor sit amet, consec tetur adipiscing elit ut aliquam, purus sit amet.</mj-text>
+			<mj-image width="70px" align="left" src="{% static 'images/email/assets/img/arrow.png' %}"></mj-image>
+		</mj-column>
+		<mj-column padding="0" width="1.5%">
+			<mj-divider width="1.5%" border-color="#F9F9F9" />
+		</mj-column>
+		<mj-column width="31%" padding="0" background-color="#fff" border-radius="6px">
+			<mj-image src="{% static 'images/email/assets/img/blog-3.png' %}"></mj-image>
+			<mj-text font-weight="normal" line-height="1px" align="left" font-size="10px" color="#003DA6" >Blog heading 1</mj-text>
+			<mj-text font-weight="normal" line-height="1px" align="left" font-size="6px" color="#718096" >May 20th 2020</mj-text>
+			<mj-text font-weight="normal" line-height="12px" align="left" font-size="9px" color="#718096" >Lorem ipsum dolor sit amet, consec tetur adipiscing elit ut aliquam, purus sit amet.</mj-text>
+			<mj-image width="70px" align="left" src="{% static 'images/email/assets/img/arrow.png' %}"></mj-image>
+		</mj-column>
+	</mj-section>
+
+	<mj-section  padding-bottom="0" background-color="#f9f9f9" >
+      <mj-column>
+         <mj-text font-weight="normal" align="center" line-height="10px" font-size="8px" color="#FF9E16" >KEEP UP TO DATE</mj-text>
+         <mj-text font-weight="normal" align="center" line-height="11px" font-size="12px" color="#0D1F79" >Join our mailing list</mj-text>
+		 <mj-text align="center" line-height="12px" font-size="11px" color="#6E7191" >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</mj-text>
+      </mj-column>
+    </mj-section>
+	<mj-section padding-bottom="30px" background-color="#f9f9f9" >
+      <mj-column padding="0 40px 0 40px">
+		<mj-text font-weight="normal" align="left" line-height="10px" font-size="8px" color="#6E7191" >Email address</mj-text>
+		<mj-text color="#0D1F79" font-weight="bold" align="left">johnsmith@gmail.com</mj-text>
+		<mj-divider padding="0" border-width="1px" border-style="solid" border-color="#cccccc" />
+      </mj-column>
+      <mj-column>
+		<mj-button href="#" border-radius="6px" align="center" line-height="18px" font-size="11px" font-weight="bold" padding-top="25px"  border="1px solid #0D1F79"  color="#0D1F79" background-color="transparent" >Sign up</mj-text>
+      </mj-column>
+    </mj-section>
+
+	<mj-section background-color="#fff">
+		<mj-column >	
+			  <mj-text font-weight="normal" line-height="18px" align="left" font-size="10px" color="#6E7191" >Closing thoughts sit amet, consectetur adipiscing elit. Tempor nibh massa euismod aliquet dignissim. Fusce maecenas ut vel arcu a at. Non ac tristique id malesuada.</mj-text>
+			  <mj-text font-weight="normal" line-height="18px" align="left" font-size="10px" color="#6E7191" >Kind Regards,</mj-text>
+			  <mj-text  font-weight="normal" line-height="18px" align="left" font-size="10px" color="#6E7191" ><strong>Letsatsi Finance</strong></mj-text>
+			  <mj-spacer height="30px" />
+			  <mj-image align="left" src="{% static 'images/email/assets/img/divider.png' %}"></mj-image>
+		</mj-column>
+	</mj-section>
+
+	<mj-section background-color="#ffffff" padding="20px 0 0 0">
+		<mj-include path="./footercell.mjml"/>
+	</mj-section>
+
+	<mj-section background-color="#ffffff" padding="20px 0 0 0">
+		<mj-include path="./footer.mjml"/>
+	</mj-section>
+
+	<mj-section background-color="#ffffff" border-radius="0 0 27px 27px">
+		<mj-include path="./spacer.mjml"/>
+	</mj-section>
+
+	<mj-section background-color="#F1F2F2" padding="0 0 20px 0">
+		<mj-column border-radius="6px"  padding="0">
+			<mj-text font-weight="normal" line-height="18px" align="center" font-size="10px" color="#6E7191">Letsatsi Finance and Loan (Pty) Ltd is an authorised FSP and registered Credit Provider (NCRCP895)</mj-text>
+		</mj-column>
+	</mj-section>
+  </mj-body>
+</mjml>

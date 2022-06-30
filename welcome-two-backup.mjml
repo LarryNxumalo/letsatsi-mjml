@@ -1,0 +1,83 @@
+<mjml>
+ <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Poppins, sans-serif" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#F1F2F2" >
+    <mj-section>
+      <mj-column>
+        <mj-image width="162px" src="{% static 'images/email/assets/img/logo.png' %}"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section border-radius="0" 
+                background-color="#F1F2F2" 
+                background-url="./assets/img/welcome-banner.png" 
+                background-size="cover"
+                background-repeat="no-repeat">
+      <mj-column>
+        <mj-text font-weight="normal" align="left" font-size="24px" line-height="18px" color="#fff" >Congratulations!</mj-text>
+        <mj-text font-weight="normal" align="left" font-size="12px" color="#fff" >Welcome to Letsatsi Finance and Loans.</mj-text>
+		<mj-spacer height="60px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff">
+      <mj-column>
+         <mj-text font-weight="normal" align="center" line-height="10px" font-size="12px" color="#FF9E16" >WELCOME TO THE COMMUNITY</mj-text>
+         <mj-text font-weight="normal" align="center" line-height="18px" font-size="16px" color="#0D1F79" >We are happy to have you, John</mj-text>
+         <mj-text font-weight="" align="center" line-height="18px" font-size="11px" color="#6E7191" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor nibh massa euismod<br> aliquet dignissim. Fusce maecenas ut vel arcu a at. Non ac tristique id malesuada. </mj-text>
+         <mj-button href="#" border-radius="6px" background-color="#0D1F79">Explore my portal</mj-button>
+      </mj-column>
+    </mj-section>
+
+	 <mj-section
+                background-color="#F9F9F9" 
+                background-size="cover"
+                background-repeat="no-repeat"
+				>
+       <mj-column>
+        <mj-image width="700px" src="./assets/img/macbook.png"></mj-image>
+      </mj-column>
+    </mj-section>
+
+	<mj-section background-color="#ffffff">
+		<mj-column>	
+			  <mj-text font-weight="normal" line-height="18px" align="left" font-size="10px" color="#6E7191" >Closing thoughts sit amet, consectetur adipiscing elit. Tempor nibh massa euismod aliquet dignissim. Fusce maecenas ut vel arcu a at. Non ac tristique id malesuada.</mj-text>
+			  <mj-text font-weight="normal" line-height="18px" align="left" font-size="10px" color="#6E7191" >Kind Regards,</mj-text>
+			  <mj-text  font-weight="normal" line-height="18px" align="left" font-size="10px" color="#6E7191" ><strong>Letsatsi Finance</strong></mj-text>
+			  <mj-spacer height="30px" />
+			  <mj-image align="left" src="/assets/img/divider.png"></mj-image>
+		</mj-column>
+	</mj-section>
+
+	<mj-section background-color="#ffffff" padding="20px 0 0 0">
+		<mj-include path="./footercell.mjml"/>
+	</mj-section>
+
+	<mj-section background-color="#ffffff" padding="20px 0 0 0">
+		<mj-include path="./footer.mjml"/>
+	</mj-section>
+
+	<mj-section background-color="#ffffff" border-radius="0 0 27px 27px">
+		<mj-include path="./spacer.mjml"/>
+	</mj-section>
+
+	<mj-section background-color="#F1F2F2" padding="10px 70px">
+		<mj-column border-radius="6px"  padding="0" width="33%">
+			<mj-image href="#" width="20px" src="./assets/img/facebook.png"></mj-image>
+		</mj-column>
+		<mj-column border-radius="6px"  padding="0" width="33%">
+			<mj-image href="#" width="20px" src="./assets/img/twitter.png"></mj-image>
+		</mj-column>
+		<mj-column border-radius="6px"  padding="0" width="33%">
+			<mj-image href="#" width="20px" src="./assets/img/linkedin.png"></mj-image>
+		</mj-column>
+	</mj-section>
+	<mj-section background-color="#F1F2F2" padding="0 0 20px 0">
+		<mj-column border-radius="6px"  padding="0">
+			<mj-text font-weight="normal" line-height="18px" align="center" font-size="10px" color="#6E7191">Letsatsi Finance and Loan (Pty) Ltd is an authorised FSP and registered Credit Provider (NCRCP895)</mj-text>
+		</mj-column>
+	</mj-section>
+  </mj-body>
+</mjml>

@@ -1,0 +1,6 @@
+{
+    "mjml.mailjetAPIKey": "13e4d1d5679fde21dd69d1b4e4017e3b",
+    "mjml.mailjetAPISecret": "0a9e29140fe5fcbdc0fbaa252a018271",
+    "mjml.mailSender": "larry@tangentsolutions.co.za",
+    "mjml.mailer": "mailjet"
+}

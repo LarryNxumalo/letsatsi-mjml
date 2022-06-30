@@ -1,0 +1,96 @@
+<mjml>
+ <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Poppins, sans-serif" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#F1F2F2">
+  
+    <mj-section>
+      <mj-column>
+        <mj-image width="162px" src="{% static 'images/email/assets/img/logo.png' %}"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0">
+		<mj-column>
+			<mj-image padding="0" src="{% static 'images/email/assets/img/thank_you_banner_text.png' %}"></mj-image>
+		</mj-column>
+    </mj-section>
+
+    <mj-section  background-color="#ffffff" >
+      <mj-column>
+         <mj-text font-weight="normal" align="left" line-height="18px" font-size="16px" color="#0D1F79" >Good day {{full_name}},</mj-text>
+         <mj-text font-weight="normal" align="left" line-height="16px" font-size="11px" color="gray" >We thank you for your recent application</mj-text>
+         <mj-text font-weight="normal" align="left" line-height="16px" font-size="11px" color="gray" > Your request for a loan was carefully considered, and we regret that we are unable to approve your application at this time for the following reason:</mj-text>
+         <mj-text font-weight="normal" align="left" line-height="18px" font-size="11px" color="#6E7191" >A dispute has been raised with the credit bureau. We are not permitted to grant you any further credit until this dispute is resolved and removed from the bureau’s records.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0"  background-color="#ffffff" >
+      <mj-column>
+         <mj-text font-weight="bold" align="center" line-height="18px" font-size="12px" color="#0D1F79" >Next steps:</mj-text>
+      </mj-column>
+    </mj-section>
+	<mj-section background-color="#ffffff">
+		<mj-column width="31%" background-color="#ffffff" border-radius="6px">
+			<mj-image src="{% static 'images/email/assets/img/in-touch.png' %}"></mj-image>
+			<mj-text font-weight="bold" line-height="1px" align="center" font-size="10px" color="#FF9E16" >GET IN TOUCH</mj-text>
+			<mj-text font-weight="normal" line-height="12px" align="left" font-size="11px" color="#6E7191" >You may contact Experian Credit Bureau to verify this on <strong color="green">021 888 6000.<strong></mj-text>
+		</mj-column>
+		<mj-column padding="0" width="1.5%" background-color="#F9F9F9">
+			<mj-divider width="1.5%" border-color="#F9F9F9"/>
+		</mj-column>
+		<mj-column width="31%" background-color="#ffffff" border-radius="6px">
+			<mj-image src="./assets/img/resolved.png"></mj-image>
+			<mj-text font-weight="bold" line-height="1px" align="center" font-size="10px" color="#FF9E16" >DISPUTE GETS RESOLVED</mj-text>
+			<mj-text font-weight="normal" line-height="12px" align="left" font-size="11px" color="#6E7191" >Lorem ipsum dolor sit amet, consec tetur adipiscing elit ut aliquam, purus sit amet.</mj-text>
+		</mj-column>
+		<mj-column padding="0" width="1.5%">
+			<mj-divider width="1.5%" border-color="#F9F9F9" />
+		</mj-column>
+		<mj-column width="31%" padding="0" background-color="#ffffff" border-radius="6px">
+			<mj-image src="./assets/img/reapply.png"></mj-image>
+			<mj-text font-weight="bold" line-height="1px" align="center" font-size="10px" color="#FF9E16" >REAPPLY FOR LOAN</mj-text>
+			<mj-text font-weight="normal" line-height="12px" align="left" font-size="11px" color="#6E7191" >You may reapply for your loan immediately, if your dispute has been resolved.</mj-text>
+		</mj-column>
+	</mj-section>
+
+	<mj-section background-color="#ffffff">
+		<mj-column>	
+			  <mj-text font-weight="normal" line-height="18px" align="left" font-size="10px" color="#6E7191" >Kind Regards,</mj-text>
+			  <mj-text  font-weight="normal" line-height="18px" align="left" font-size="10px" color="#6E7191" ><strong>Letsatsi Finance</strong></mj-text>
+			  <mj-spacer height="30px" />
+			  <mj-image align="left" src="./assets/img/divider.png"></mj-image>
+		</mj-column>
+	</mj-section>
+
+	<mj-section background-color="#ffffff" padding="20px 0 0 0">
+		<mj-include path="./footercell.mjml"/>
+	</mj-section>
+
+	<mj-section background-color="#ffffff" padding="20px 0 0 0">
+		<mj-include path="./footer.mjml"/>
+	</mj-section>
+
+	<mj-section background-color="#ffffff" border-radius="0 0 27px 27px">
+		<mj-include path="./spacer.mjml"/>
+	</mj-section>
+
+	<mj-section background-color="#F1F2F2" padding="10px 70px">
+		<mj-column border-radius="6px"  padding="0" width="33%">
+			<mj-image href="#" width="20px" src="./assets/img/facebook.png"></mj-image>
+		</mj-column>
+		<mj-column border-radius="6px"  padding="0" width="33%">
+			<mj-image href="#" width="20px" src="./assets/img/twitter.png"></mj-image>
+		</mj-column>
+		<mj-column border-radius="6px"  padding="0" width="33%">
+			<mj-image href="#" width="20px" src="./assets/img/linkedin.png"></mj-image>
+		</mj-column>
+	</mj-section>
+	<mj-section background-color="#F1F2F2" padding="0 0 20px 0">
+		<mj-column border-radius="6px"  padding="0">
+			<mj-text font-weight="normal" line-height="18px" align="center" font-size="10px" color="#6E7191">Letsatsi Finance and Loan (Pty) Ltd is an authorised FSP and registered Credit Provider (NCRCP895)</mj-text>
+		</mj-column>
+	</mj-section>
+  </mj-body>
+</mjml>

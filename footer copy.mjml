@@ -1,0 +1,22 @@
+<mjml>
+	<mj-body background-color="#F1F2F2">
+		<mj-section background-color="#fff">
+			<mj-column background-color="#fff" border-radius="6px">
+				<mj-image width="80px" align="left" src="{% static 'images/email/assets/img/bottom-logo.png' %}" padding="0 0 30px 30px"></mj-image>
+				<!-- <mj-image width="80px" align="left" src="assets/img/bottom-logo.png" padding="0 0 30px 30px"></mj-image> -->
+			</mj-column>
+			<mj-column width="33%" background-color="#fff" border-radius="6px">
+				<!-- <mj-text font-weight="normal" line-height="1px" align="left" font-size="9px" color="#6E7191">Customer service: <strong  color="#003DA6">{{ customer_service_number }}</strong></mj-text> -->
+				<mj-text font-weight="normal" align="left" font-size="9px" color="#6E7191">Customer service: <strong  color="#003DA6">0815555555</strong></mj-text>
+			</mj-column>
+			<mj-column width="33%" background-color="#fff" border-radius="6px">
+				<mj-text font-weight="normal" align="left" font-size="9px"><a href="https://letsatsifinance.co.za" style="color: #6E7191; text-decoration: none;"><strong font-weight="bold" color="#003DA6">www.letsatsifinance.co.za</strong></a></mj-text>
+			</mj-column>
+		</mj-section>
+		<mj-section background-color="#fff" padding="0">
+			<mj-column width="50%" background-color="#fff" border-radius="6px">
+				<mj-text font-weight="normal"  align="left" font-size="9px" color="#6E7191" >Email:<strong color="#003DA6"> customerservice@letsatsifinance.co.za</strong></mj-text>
+			</mj-column>
+		</mj-section>
+	</mj-body>
+</mjml>

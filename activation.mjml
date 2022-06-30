@@ -1,0 +1,70 @@
+<mjml>
+ <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Poppins, sans-serif" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#F1F2F2">
+
+    <mj-section>
+      <mj-column>
+        <mj-image width="162px" src="{% static 'images/email/assets/img/logo.png' %}"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0">
+		<mj-column>
+			<mj-image padding="0" src="{% static 'images/email/assets/img/header_activate_your_account.png' %}"></mj-image>
+		</mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff">
+      <mj-column>
+         <mj-text font-weight="normal" align="center" line-height="18px" font-size="16px" color="#0D1F79" >Hi, {{full_name}}</mj-text>
+         <mj-text  align="center" line-height="18px" font-size="11px" color="#6E7191">Thank you for registering on Letsatsi Finance Self Service Portal.</mj-text>
+         <mj-text  align="center" line-height="18px" font-size="11px" color="#6E7191">Click on the button below to activate your account.</mj-text>
+         <mj-text  align="center" line-height="18px" font-size="11px" color="#6E7191">This activation button will expire in 3 minutes, to request a new activation link please try login to the portal and a new activation link will be resent.</mj-text>
+         <mj-text  align="center" line-height="18px" font-size="11px" color="#6E7191">If the button does not work, please right click, copy and paste the link into your browser <br> {{ letsatsi_base_url }}{% url 'activate' b64_user_id=user_id_url_safe token=token %}{{ query }}</mj-text>
+         <mj-button href="{{ letsatsi_base_url }}{% url 'activate' b64_user_id=user_id_url_safe token=token %}{{ query }}" border-radius="6px" background-color="#0D1F79">Activate my account</mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#F9F9F9">
+		<mj-column>
+			<mj-image padding="0" src="{% static 'images/email/assets/img/left-lady@2x.png' %}"></mj-image>
+		</mj-column>
+		<mj-column >
+			<mj-spacer height="50px" />
+			<mj-text font-weight="normal" line-height="10px" align="left" font-size="8px" color="#FF9E16" >EVERYTHING AT YOUR FINGERTIPS</mj-text>
+			<mj-text font-weight="normal" line-height="18px" align="left" font-size="16px" color="#0D1F79" >Enjoy your personalised portal</mj-text>
+			<mj-text font-weight="normal" line-height="18px" align="left" font-size="11px" color="#6E7191" >View and manage your Letsatsi Finance profile</mj-text>
+		</mj-column>
+    </mj-section>
+
+	<mj-section background-color="#ffffff">
+		<mj-column>	
+			  <mj-text font-weight="normal" line-height="18px" align="left" font-size="10px" color="#6E7191" >Kind Regards,<br> <strong>Letsatsi Finance</strong></mj-text>
+			  <mj-spacer height="30px" />
+			  <mj-image align="left" src="{% static 'images/email/assets/img/divider.png' %}"></mj-image>
+		</mj-column>
+	</mj-section>
+
+	<mj-section background-color="#ffffff" padding="20px 0 0 0">
+		<mj-include path="./footercell.mjml"/>
+	</mj-section>
+
+	<mj-section background-color="#ffffff" padding="20px 0 0 0">
+		<mj-include path="./footer.mjml"/>
+	</mj-section>
+
+	<mj-section background-color="#ffffff" border-radius="0 0 27px 27px">
+		<mj-include path="./spacer.mjml"/>
+	</mj-section>
+
+	<mj-section background-color="#F1F2F2" padding="0 0 20px 0">
+		<mj-column border-radius="6px"  padding="0">
+			<mj-text font-weight="normal" line-height="18px" align="center" font-size="10px" color="#6E7191">Letsatsi Finance and Loan (Pty) Ltd is an Authorised Financial Services and Credit Provider NCRCP895</mj-text>
+		</mj-column>
+	</mj-section>
+  </mj-body>
+</mjml>

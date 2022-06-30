@@ -1,0 +1,105 @@
+<mjml>
+ <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Poppins, sans-serif" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#F1F2F2">
+  
+    <mj-section>
+      <mj-column>
+        <mj-image width="162px" src="{% static 'images/email/assets/img/logo.png' %}"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0">
+		<mj-column>
+			<mj-image padding="0" src="{% static 'images/email/assets/img/thank_you_banner_text.png' %}"></mj-image>
+		</mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" >
+      <mj-column>
+         <mj-text font-weight="normal" align="left" line-height="18px" font-size="16px" color="#0D1F79" >Good day {{ full_name }},</mj-text>
+         <mj-text font-weight="bold" align="left" line-height="16px" font-size="11px" color="gray" >You recently showed interest in funeral cover</mj-text>
+         <mj-text align="left" line-height="18px" font-size="11px" color="#6E7191" >One of our agents will be in touch soon, to help you lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor nibh massa euismod aliquet dignissim. Fusce maecenas ut vel arcu a at. Non ac tristique id malesuada. </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section  background-color="#ffffff" >
+      <mj-column>
+         <mj-text font-weight="bold" align="center" line-height="18px" font-size="12px" color="#0D1F79">Funeral cover benefits include:</mj-text>
+      </mj-column>
+    </mj-section>
+	<mj-section background-color="#ffffff">
+		<mj-column width="31%" background-color="#fff" border-radius="6px">
+			<mj-image src="{% static 'images/email/assets/img/family-assistance.png' %}"></mj-image>
+			<mj-text font-weight="normal" line-height="1px" align="center" font-size="10px" color="#FF9E16" >FAMILY ASSISTANCE</mj-text>
+			<mj-text font-weight="normal" line-height="12px" align="center" font-size="11px" color="#6E7191" >Lorem ipsum dolor sit amet, consec tetur adipiscing elit ut aliquam, purus sit amet.</mj-text>
+		</mj-column>
+		<mj-column padding="0" width="1.5%" background-color="#F9F9F9">
+			<mj-divider width="1.5%" border-color="#F9F9F9"/>
+		</mj-column>
+		<mj-column width="31%" background-color="#fff" border-radius="6px">
+			<mj-image src="{% static 'images/email/assets/img/preparation.png' %}"></mj-image>
+			<mj-text font-weight="normal" line-height="1px" align="center" font-size="10px" color="#FF9E16" >PREPARATION</mj-text>
+			<mj-text font-weight="normal" line-height="12px" align="center" font-size="11px" color="#6E7191" >Lorem ipsum dolor sit amet, consec tetur adipiscing elit ut aliquam, purus sit amet.</mj-text>
+		</mj-column>
+		<mj-column padding="0" width="1.5%">
+			<mj-divider width="1.5%" border-color="#F9F9F9" />
+		</mj-column>
+		<mj-column width="31%" padding="0" background-color="#fff" border-radius="6px">
+			<mj-image src="{% static 'images/email/assets/img/medical-assistance.png' %}"></mj-image>
+			<mj-text font-weight="normal" line-height="1px" align="center" font-size="10px" color="#FF9E16" >MEDICAL ASSISTANCE</mj-text>
+			<mj-text font-weight="normal" line-height="12px" align="center" font-size="11px" color="#6E7191" >Lorem ipsum dolor sit amet, consec tetur adipiscing elit ut aliquam, purus sit amet.</mj-text>
+		</mj-column>
+	</mj-section>
+	 <mj-section padding-bottom="0"  background-color="#f9f9f9" >
+      <mj-column>
+         <mj-text font-weight="normal" align="center" line-height="12px" font-size="12px" color="#0D1F79" >Other tailored solutions you might be interested in</mj-text>
+      </mj-column>
+    </mj-section>
+	
+	<mj-section background-color="#F9F9F9">
+		<mj-column width="45%" background-color="#fff" border-radius="6px">
+			<mj-image padding-top="25px" src="{% static 'images/email/assets/img/edu-benefits.png' %}"></mj-image>
+			<mj-text font-weight="normal" line-height="1px" align="left" font-size="11px" color="#FF9E16" >From R xxx p/mth</mj-text>
+			<mj-text font-weight="normal" line-height="18px" align="left" padding-bottom="25px" font-size="11px" color="#6E7191" >Consectetur adipiscing elit ut aliquam Lorem ipsum dolor sit amet Purus sit amet luctus venenatis</mj-text>
+		</mj-column>
+		<mj-column padding="0" width="5%" background-color="#F9F9F9">
+			<mj-divider width="5%" border-color="#F9F9F9"/>
+		</mj-column>
+		<mj-column width="45%" background-color="#fff" border-radius="6px">
+			<mj-image padding-top="25px" src="{% static 'images/email/assets/img/commuter-benefits.png' %}"></mj-image>
+			<mj-text font-weight="normal" line-height="1px" align="left" font-size="11px" color="#FF9E16" >From R xxx p/mth</mj-text>
+			<mj-text font-weight="normal" line-height="18px" align="left" padding-bottom="25px" font-size="11px" color="#6E7191" >Consectetur adipiscing elit ut aliquam Lorem ipsum dolor sit amet Purus sit amet luctus venenatis</mj-text>
+		</mj-column>
+	</mj-section>
+
+	<mj-section background-color="#fff">
+		<mj-column>	
+			  <mj-text font-weight="normal" line-height="18px" align="left" font-size="10px" color="#6E7191" >Kind Regards,</mj-text>
+			  <mj-text  font-weight="normal" line-height="18px" align="left" font-size="10px" color="#6E7191" ><strong>Letsatsi Finance</strong></mj-text>
+			  <mj-spacer height="30px" />
+			  <mj-image align="left" src="{% static 'images/email/assets/img/divider.png' %}"></mj-image>
+		</mj-column>
+	</mj-section>
+
+	<mj-section background-color="#ffffff" padding="20px 0 0 0">
+		<mj-include path="./footercell.mjml"/>
+	</mj-section>
+
+	<mj-section background-color="#ffffff" padding="20px 0 0 0">
+		<mj-include path="./footer.mjml"/>
+	</mj-section>
+
+	<mj-section background-color="#ffffff" border-radius="0 0 27px 27px">
+		<mj-include path="./spacer.mjml"/>
+	</mj-section>
+
+	<mj-section background-color="#F1F2F2" padding="0 0 20px 0">
+		<mj-column border-radius="6px"  padding="0">
+			<mj-text font-weight="normal" line-height="18px" align="center" font-size="10px" color="#6E7191">Letsatsi Finance and Loan (Pty) Ltd is an authorised FSP and registered Credit Provider (NCRCP895)</mj-text>
+		</mj-column>
+	</mj-section>
+  </mj-body>
+</mjml>

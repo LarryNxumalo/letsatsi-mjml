@@ -1,0 +1,9 @@
+<mj-column background-color="#ffffff" border-radius="6px">
+	<mj-image width="80px" align="left" src="{% static 'images/email/assets/img/bottom-logo.png' %}" padding="0 0 30px 30px"></mj-image>
+</mj-column>
+<mj-column width="33%" background-color="#ffffff" border-radius="6px">
+	<mj-text font-weight="normal" align="left" font-size="9px" color="#6E7191">Customer service: <strong  color="#003DA6">0800456098</strong></mj-text>
+</mj-column>
+<mj-column width="33%" background-color="#ffffff" border-radius="6px">
+	<mj-text font-weight="normal" align="left" font-size="9px"><a href="https://letsatsifinance.co.za" style="color: #6E7191; text-decoration: none;"><strong font-weight="bold" color="#003DA6">www.letsatsifinance.co.za</strong></a></mj-text>
+</mj-column>

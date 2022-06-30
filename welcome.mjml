@@ -1,0 +1,48 @@
+<mjml>
+ <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Poppins, sans-serif" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#F1F2F2">
+
+    <mj-section>
+      <mj-column>
+        <mj-image width="162px" src="{% static 'images/email/assets/img/logo.png' %}"></mj-image>
+      </mj-column>
+    </mj-section>
+	
+    <mj-section padding="0">
+		<mj-column >
+			<mj-image padding="0" src="{% static 'images/email/assets/img/header_with_text.png' %}"></mj-image>
+		</mj-column>
+    </mj-section>
+
+    <mj-section  background-color="#ffffff">
+      <mj-column>
+         <mj-text font-weight="normal" align="center" line-height="10px" font-size="12px" color="#FF9E16" >WELCOME TO THE COMMUNITY</mj-text>
+         <mj-text font-weight="normal" align="center" line-height="18px" font-size="16px" color="#0D1F79" >We are happy to have you, {{full_name}}</mj-text>
+         <mj-text align="center" line-height="18px" font-size="11px" color="#6E7191" >You have successfully registered on the Letsatsi Portal!<br> Click on the button below to Login now! </mj-text>
+         <mj-button href="{{ letsatsi_base_url }}{% url 'activate' b64_user_id=user_id_url_safe token=token %}{{ query }}" border-radius="6px" background-color="#0D1F79">Explore my portal</mj-button>
+      </mj-column>
+    </mj-section>
+
+	<mj-section background-color="#ffffff" padding="20px 0 0 0">
+		<mj-include path="./footercell.mjml"/>
+	</mj-section>
+
+	<mj-section background-color="#ffffff" padding="20px 0 0 0">
+		<mj-include path="./footer.mjml"/>
+	</mj-section>
+
+	<mj-section background-color="#ffffff" border-radius="0 0 27px 27px">
+		<mj-include path="./spacer.mjml"/>
+	</mj-section>
+
+	<mj-section background-color="#F1F2F2" padding="0 0 20px 0">
+		<mj-column border-radius="6px"  padding="0">
+			<mj-text font-weight="normal" line-height="18px" align="center" font-size="10px" color="#6E7191">Letsatsi Finance and Loan (Pty) Ltd is an authorised FSP and registered Credit Provider (NCRCP895)</mj-text>
+		</mj-column>
+	</mj-section>
+  </mj-body>
+</mjml>
